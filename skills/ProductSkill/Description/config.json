@@ -1,6 +1,6 @@
 {
     "schema": 1,
-    "description": "Generate description of a pet store supply product",
+    "description": "Generate description of a tech product in a Best Buy store",
     "type": "completion",
     "completion": {
       "max_tokens": 1000,

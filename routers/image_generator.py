@@ -46,7 +46,7 @@ async def post_image(request: Request) -> JSONResponse:
         }
         payload = {
             "model": "dall-e-3",
-            "prompt": f"Generate a cute photo realistic image of a product in its packaging in front of a plain background for a product called <{name}> with a description <{description}> to be sold in an online pet supply store",
+            "prompt": f"Generate a photo realistic image of a product in its packaging in front of a plain background for a product called <{name}> with a description <{description}> to be sold in an online Best Buy store",
             "n": 1
         }
 
